@@ -22,12 +22,9 @@ public class tugas2 {
                 }else{
                     System.out.println("Jenis Kendaraan Tidak Valid");
                 }
-                
-                
             }
-            
-            System.out.println("Total Pembayaran Parkir = " + total);
         } while (jenis != 0);
+        System.out.println("Total Pembayaran Parkir = " + total);
 
     }
 }
